@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B02FF4E1A12202B00DBEF5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B02FF4D1A12202B00DBEF5C /* main.m */; };
+		4B02FF511A12202B00DBEF5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B02FF501A12202B00DBEF5C /* AppDelegate.m */; };
+		4B02FF591A12202B00DBEF5C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B02FF581A12202B00DBEF5C /* Images.xcassets */; };
+		4B02FF681A12202B00DBEF5C /* MobiquityJWTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B02FF671A12202B00DBEF5C /* MobiquityJWTests.m */; };
+		4B02FF741A12206500DBEF5C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B02FF721A12206500DBEF5C /* ViewController.m */; };
+		4B02FF751A12206500DBEF5C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B02FF731A12206500DBEF5C /* ViewController.xib */; };
+		4B02FF7F1A12241300DBEF5C /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B02FF7E1A12241300DBEF5C /* Launch Screen.xib */; };
+		4B02FF811A1225B500DBEF5C /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B02FF801A1225B500DBEF5C /* DropboxSDK.framework */; };
+		4B02FF851A12268300DBEF5C /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B02FF831A12268300DBEF5C /* DetailViewController.m */; };
+		4B02FF861A12268300DBEF5C /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B02FF841A12268300DBEF5C /* DetailViewController.xib */; };
+		4B02FF941A1259B500DBEF5C /* DownloadImagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B02FF921A1259B500DBEF5C /* DownloadImagesViewController.m */; };
+		4B02FF951A1259B500DBEF5C /* DownloadImagesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B02FF931A1259B500DBEF5C /* DownloadImagesViewController.xib */; };
+		4B02FF991A12617600DBEF5C /* ViewDownloadedImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B02FF971A12617600DBEF5C /* ViewDownloadedImageViewController.m */; };
+		4B02FF9A1A12617600DBEF5C /* ViewDownloadedImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B02FF981A12617600DBEF5C /* ViewDownloadedImageViewController.xib */; };
+		4B0336851A12BF4400A0941B /* CollectionImageCellCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0336841A12BF4400A0941B /* CollectionImageCellCollectionViewCell.m */; };
+		4B0336871A12BF7000A0941B /* CollectionImageCellCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B0336861A12BF7000A0941B /* CollectionImageCellCollectionViewCell.xib */; };
+		4BCFCF601A1375E000C4106B /* error-black.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCFCF5F1A1375E000C4106B /* error-black.png */; };
+		4BCFCF621A1395AB00C4106B /* back-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCFCF611A1395AB00C4106B /* back-1.png */; };
+		4BCFCF641A13B0B600C4106B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BCFCF631A13B0B600C4106B /* MobileCoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B02FF621A12202B00DBEF5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B02FF401A12202B00DBEF5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B02FF471A12202B00DBEF5C;
+			remoteInfo = MobiquityJW;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B02FF481A12202B00DBEF5C /* MobiquityJW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobiquityJW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B02FF4C1A12202B00DBEF5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B02FF4D1A12202B00DBEF5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B02FF4F1A12202B00DBEF5C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4B02FF501A12202B00DBEF5C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4B02FF581A12202B00DBEF5C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4B02FF611A12202B00DBEF5C /* MobiquityJWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobiquityJWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B02FF661A12202B00DBEF5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B02FF671A12202B00DBEF5C /* MobiquityJWTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobiquityJWTests.m; sourceTree = "<group>"; };
+		4B02FF711A12206500DBEF5C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4B02FF721A12206500DBEF5C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4B02FF731A12206500DBEF5C /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		4B02FF7E1A12241300DBEF5C /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
+		4B02FF801A1225B500DBEF5C /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DropboxSDK.framework; sourceTree = "<group>"; };
+		4B02FF821A12268300DBEF5C /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		4B02FF831A12268300DBEF5C /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		4B02FF841A12268300DBEF5C /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		4B02FF911A1259B500DBEF5C /* DownloadImagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadImagesViewController.h; sourceTree = "<group>"; };
+		4B02FF921A1259B500DBEF5C /* DownloadImagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadImagesViewController.m; sourceTree = "<group>"; };
+		4B02FF931A1259B500DBEF5C /* DownloadImagesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DownloadImagesViewController.xib; sourceTree = "<group>"; };
+		4B02FF961A12617600DBEF5C /* ViewDownloadedImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewDownloadedImageViewController.h; sourceTree = "<group>"; };
+		4B02FF971A12617600DBEF5C /* ViewDownloadedImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewDownloadedImageViewController.m; sourceTree = "<group>"; };
+		4B02FF981A12617600DBEF5C /* ViewDownloadedImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewDownloadedImageViewController.xib; sourceTree = "<group>"; };
+		4B0336831A12BF4400A0941B /* CollectionImageCellCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionImageCellCollectionViewCell.h; sourceTree = "<group>"; };
+		4B0336841A12BF4400A0941B /* CollectionImageCellCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionImageCellCollectionViewCell.m; sourceTree = "<group>"; };
+		4B0336861A12BF7000A0941B /* CollectionImageCellCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionImageCellCollectionViewCell.xib; sourceTree = "<group>"; };
+		4BCFCF5F1A1375E000C4106B /* error-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "error-black.png"; sourceTree = "<group>"; };
+		4BCFCF611A1395AB00C4106B /* back-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-1.png"; sourceTree = "<group>"; };
+		4BCFCF631A13B0B600C4106B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B02FF451A12202B00DBEF5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCFCF641A13B0B600C4106B /* MobileCoreServices.framework in Frameworks */,
+				4B02FF811A1225B500DBEF5C /* DropboxSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B02FF5E1A12202B00DBEF5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B02FF3F1A12202B00DBEF5C = {
+			isa = PBXGroup;
+			children = (
+				4BCFCF631A13B0B600C4106B /* MobileCoreServices.framework */,
+				4B02FF4A1A12202B00DBEF5C /* MobiquityJW */,
+				4B02FF641A12202B00DBEF5C /* MobiquityJWTests */,
+				4B02FF491A12202B00DBEF5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B02FF491A12202B00DBEF5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B02FF481A12202B00DBEF5C /* MobiquityJW.app */,
+				4B02FF611A12202B00DBEF5C /* MobiquityJWTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B02FF4A1A12202B00DBEF5C /* MobiquityJW */ = {
+			isa = PBXGroup;
+			children = (
+				4BCFCF5F1A1375E000C4106B /* error-black.png */,
+				4BCFCF611A1395AB00C4106B /* back-1.png */,
+				4B02FF4F1A12202B00DBEF5C /* AppDelegate.h */,
+				4B02FF501A12202B00DBEF5C /* AppDelegate.m */,
+				4B02FF711A12206500DBEF5C /* ViewController.h */,
+				4B02FF721A12206500DBEF5C /* ViewController.m */,
+				4B02FF731A12206500DBEF5C /* ViewController.xib */,
+				4B02FF821A12268300DBEF5C /* DetailViewController.h */,
+				4B02FF831A12268300DBEF5C /* DetailViewController.m */,
+				4B02FF841A12268300DBEF5C /* DetailViewController.xib */,
+				4B02FF911A1259B500DBEF5C /* DownloadImagesViewController.h */,
+				4B02FF921A1259B500DBEF5C /* DownloadImagesViewController.m */,
+				4B02FF931A1259B500DBEF5C /* DownloadImagesViewController.xib */,
+				4B02FF961A12617600DBEF5C /* ViewDownloadedImageViewController.h */,
+				4B02FF971A12617600DBEF5C /* ViewDownloadedImageViewController.m */,
+				4B02FF981A12617600DBEF5C /* ViewDownloadedImageViewController.xib */,
+				4B0336831A12BF4400A0941B /* CollectionImageCellCollectionViewCell.h */,
+				4B0336841A12BF4400A0941B /* CollectionImageCellCollectionViewCell.m */,
+				4B0336861A12BF7000A0941B /* CollectionImageCellCollectionViewCell.xib */,
+				4B02FF7E1A12241300DBEF5C /* Launch Screen.xib */,
+				4B02FF581A12202B00DBEF5C /* Images.xcassets */,
+				4B02FF4B1A12202B00DBEF5C /* Supporting Files */,
+			);
+			path = MobiquityJW;
+			sourceTree = "<group>";
+		};
+		4B02FF4B1A12202B00DBEF5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B02FF801A1225B500DBEF5C /* DropboxSDK.framework */,
+				4B02FF4C1A12202B00DBEF5C /* Info.plist */,
+				4B02FF4D1A12202B00DBEF5C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B02FF641A12202B00DBEF5C /* MobiquityJWTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B02FF671A12202B00DBEF5C /* MobiquityJWTests.m */,
+				4B02FF651A12202B00DBEF5C /* Supporting Files */,
+			);
+			path = MobiquityJWTests;
+			sourceTree = "<group>";
+		};
+		4B02FF651A12202B00DBEF5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B02FF661A12202B00DBEF5C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B02FF471A12202B00DBEF5C /* MobiquityJW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B02FF6B1A12202B00DBEF5C /* Build configuration list for PBXNativeTarget "MobiquityJW" */;
+			buildPhases = (
+				4B02FF441A12202B00DBEF5C /* Sources */,
+				4B02FF451A12202B00DBEF5C /* Frameworks */,
+				4B02FF461A12202B00DBEF5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobiquityJW;
+			productName = MobiquityJW;
+			productReference = 4B02FF481A12202B00DBEF5C /* MobiquityJW.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B02FF601A12202B00DBEF5C /* MobiquityJWTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B02FF6E1A12202B00DBEF5C /* Build configuration list for PBXNativeTarget "MobiquityJWTests" */;
+			buildPhases = (
+				4B02FF5D1A12202B00DBEF5C /* Sources */,
+				4B02FF5E1A12202B00DBEF5C /* Frameworks */,
+				4B02FF5F1A12202B00DBEF5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B02FF631A12202B00DBEF5C /* PBXTargetDependency */,
+			);
+			name = MobiquityJWTests;
+			productName = MobiquityJWTests;
+			productReference = 4B02FF611A12202B00DBEF5C /* MobiquityJWTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B02FF401A12202B00DBEF5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = com.sstig.rize;
+				TargetAttributes = {
+					4B02FF471A12202B00DBEF5C = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					4B02FF601A12202B00DBEF5C = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 4B02FF471A12202B00DBEF5C;
+					};
+				};
+			};
+			buildConfigurationList = 4B02FF431A12202B00DBEF5C /* Build configuration list for PBXProject "MobiquityJW" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B02FF3F1A12202B00DBEF5C;
+			productRefGroup = 4B02FF491A12202B00DBEF5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B02FF471A12202B00DBEF5C /* MobiquityJW */,
+				4B02FF601A12202B00DBEF5C /* MobiquityJWTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B02FF461A12202B00DBEF5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B02FF751A12206500DBEF5C /* ViewController.xib in Resources */,
+				4BCFCF601A1375E000C4106B /* error-black.png in Resources */,
+				4B02FF9A1A12617600DBEF5C /* ViewDownloadedImageViewController.xib in Resources */,
+				4B02FF591A12202B00DBEF5C /* Images.xcassets in Resources */,
+				4B02FF951A1259B500DBEF5C /* DownloadImagesViewController.xib in Resources */,
+				4B02FF7F1A12241300DBEF5C /* Launch Screen.xib in Resources */,
+				4B0336871A12BF7000A0941B /* CollectionImageCellCollectionViewCell.xib in Resources */,
+				4B02FF861A12268300DBEF5C /* DetailViewController.xib in Resources */,
+				4BCFCF621A1395AB00C4106B /* back-1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B02FF5F1A12202B00DBEF5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B02FF441A12202B00DBEF5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B0336851A12BF4400A0941B /* CollectionImageCellCollectionViewCell.m in Sources */,
+				4B02FF991A12617600DBEF5C /* ViewDownloadedImageViewController.m in Sources */,
+				4B02FF741A12206500DBEF5C /* ViewController.m in Sources */,
+				4B02FF511A12202B00DBEF5C /* AppDelegate.m in Sources */,
+				4B02FF4E1A12202B00DBEF5C /* main.m in Sources */,
+				4B02FF941A1259B500DBEF5C /* DownloadImagesViewController.m in Sources */,
+				4B02FF851A12268300DBEF5C /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B02FF5D1A12202B00DBEF5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B02FF681A12202B00DBEF5C /* MobiquityJWTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B02FF631A12202B00DBEF5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B02FF471A12202B00DBEF5C /* MobiquityJW */;
+			targetProxy = 4B02FF621A12202B00DBEF5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4B02FF691A12202B00DBEF5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4B02FF6A1A12202B00DBEF5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B02FF6C1A12202B00DBEF5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MobiquityJW",
+				);
+				INFOPLIST_FILE = MobiquityJW/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4B02FF6D1A12202B00DBEF5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MobiquityJW",
+				);
+				INFOPLIST_FILE = MobiquityJW/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4B02FF6F1A12202B00DBEF5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MobiquityJWTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobiquityJW.app/MobiquityJW";
+			};
+			name = Debug;
+		};
+		4B02FF701A12202B00DBEF5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MobiquityJWTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobiquityJW.app/MobiquityJW";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B02FF431A12202B00DBEF5C /* Build configuration list for PBXProject "MobiquityJW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B02FF691A12202B00DBEF5C /* Debug */,
+				4B02FF6A1A12202B00DBEF5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B02FF6B1A12202B00DBEF5C /* Build configuration list for PBXNativeTarget "MobiquityJW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B02FF6C1A12202B00DBEF5C /* Debug */,
+				4B02FF6D1A12202B00DBEF5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B02FF6E1A12202B00DBEF5C /* Build configuration list for PBXNativeTarget "MobiquityJWTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B02FF6F1A12202B00DBEF5C /* Debug */,
+				4B02FF701A12202B00DBEF5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B02FF401A12202B00DBEF5C /* Project object */;
+}
